@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f7f7f2;
+    color: #222;
+}
+.hero {
+    background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+                url("../images/lesotho.jpg") center/cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.section-title {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.card {
+    transition: .3s;
+    border: none;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.destination-img {
+    height: 220px;
+    object-fit: cover;
+}
+.gallery-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+}
+footer {
+    background: #123b2a;
+    color: white;
+}
+.custom-btn {
+    background: #d9a441;
+    color: #111;
+    border: none;
+}
+.custom-btn:hover {
+    background: #b8872d;
+    color: white;
+}
+.dark-mode {
+    background: #181818;
+    color: #eee;
+}
+.dark-mode .card,
+.dark-mode .accordion-item {
+    background: #252525;
+    color: #eee;
+}
+.dark-mode .navbar {
+    background-color: #111 !important;
+}
+.error {
+    color: #b00020;
+    font-size: 14px;
+}
